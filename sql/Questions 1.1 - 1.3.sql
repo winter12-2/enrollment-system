@@ -15,7 +15,7 @@ CREATE TABLE course (
 
 USE rsvp_db;
 
--- Make parent PKs UNSIGNED (and auto-increment if you want)
+-- Make parent PKs UNSIGNED
 ALTER TABLE student
   MODIFY studentId INT UNSIGNED NOT NULL AUTO_INCREMENT;
 
