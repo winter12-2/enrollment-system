@@ -1,16 +1,16 @@
 USE rsvp_db;
 
--- Student table (you'll see names here)
+-- Student table
 SELECT studentId, name, age, department
 FROM student
 ORDER BY studentId;
 
--- Course table (course names here)
+-- Course table
 SELECT courseID, name, credits
 FROM course
 ORDER BY courseID;
 
--- Enrollment table (IDs + grade)
+-- Enrollment table
 SELECT eID, sID, cID, grade
 FROM enrollment
 ORDER BY eID;
